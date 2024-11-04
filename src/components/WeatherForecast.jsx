@@ -2,7 +2,7 @@ import "./WeatherForecast.css";
 const WeatherForecast = ({ weatherForecast }) => (
   <div className="weather">
     <h2>{weatherForecast.day} </h2>
-    <img src={weatherForecast.img} alt={weatherForecast.alt} />
+    <img src={weatherForecast.img} alt={weatherForecast.imgAlt} />
     <p>
       <span>conditions: </span> {weatherForecast.conditions}
     </p>
